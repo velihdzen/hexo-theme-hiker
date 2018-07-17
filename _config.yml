@@ -6,12 +6,12 @@
 menu:
   Home: /
   Archives: archives
-  Categories: categories
-  Tags: tags
+  # Categories: categories
+  # Tags: tags
   About: about
 rss: /atom.xml
 
-since: 2013
+since: 2015
 
 # Set default keywords (Use a comma to separate)
 keywords: ""
@@ -31,7 +31,7 @@ avatar:
 # eg. mode: image | polyline | trianglify
 home_background_image:
   enable: true
-  mode: image
+  mode: polyline
   rolling: true
   url: [css/images/home-bg.jpg, css/images/sample.jpg, https://source.unsplash.com/collection/954550/1920x1080]
 
@@ -42,7 +42,7 @@ home_logo_image:
 
 
 # AboutPage background
-about_big_image: [css/images/pose.jpg, css/images/sample.jpg, https://source.unsplash.com/collection/954550/1920x1080]
+# about_big_image: [css/images/pose.jpg, css/images/sample.jpg, https://source.unsplash.com/collection/954550/1920x1080]
 
 
 # Archive pagination
@@ -63,12 +63,12 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- social
+# - social
 - category
 - tag
-- tagcloud
+# - tagcloud
 - archive
-- recent_posts
+# - recent_posts
 
 
 # Social Links
@@ -97,7 +97,7 @@ search:
 gentie_productKey: #your-gentie-product-key
 duoshuo_shortname: 
 disqus_shortname: 
-livere_shortname: MTAyMC8yOTQ4MS82MDQ5
+# livere_shortname: MTAyMC8yOTQ4MS82MDQ5
 uyan_uid: 
 wumii: 
 
@@ -106,13 +106,13 @@ wumii:
 # Available value:
 #    default | gray | normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: default
+highlight_theme: night blue
 
 
 # Article theme color
 # Available value:
 #    random | orange | blue | red | green | black
-theme_color: random
+theme_color: blue
 
 
 # display widgets at the bottom of index pages (pagination == 2)
@@ -152,7 +152,7 @@ facebook_sdk:
   webmaster:    #true
 
 # CNZZ count
-cnzz_siteid: 1260716016
+# cnzz_siteid: 1260716016
 
 # busuanzi count
 # http://busuanzi.ibruce.info/
@@ -161,11 +161,11 @@ show_busuanzi_view_counts: true
 
 # donation button
 donate:
-    enable: true
+    enable: false
     message: '如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!'
     wechatImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png
     alipayImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg
     
 # post copyright
 copyright:
-    enable: true
+    enable: false
